@@ -1,5 +1,5 @@
 # Winforms-uygulamasi
-C# dilinde Windows Forms .NET 6.0 ile oluşturulmuş 1,2 ve 3 boyutlu cisimlerin çizimi ve birbiriyle çarpışma denetimi
+Visual Studio'da C# dilinde, Windows Forms .NET 6.0 ile oluşturulmuş 1,2 ve 3 boyutlu cisimlerin çizimi ve birbiriyle çarpışma denetimi
 
 YOUTUBE LİNKİ: https://youtu.be/Nu5OgGSH29w  
 
