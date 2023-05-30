@@ -1,15 +1,3 @@
-/****************************************************************************
-**                           SAKARYA ÜNÝVERSÝTESÝ
-**                  BÝLGÝSAYAR VE BÝLÝÞÝM BÝLÝMLERÝ FAKÜLTESÝ
-**                         BÝLGÝSAYAR MÜHENDÝSLÝÐÝ BÖLÜMÜ
-**                        NESNEYE DAYALI PROGRAMLAMA DERSÝ
-**
-**                               ÖDEV NUMARASI: 1
-**                            ÖÐRENCÝ ADI: ELÝF GÜNAYDIN
-**                           ÖÐRENCÝ NUMARASI: G221210073
-**                                  DERS GRUBU: 2A
-                                 YOUTUBE LÝNKÝ: https://youtu.be/Nu5OgGSH29w
-*****************************************************************************/
 namespace PROJE
 {
     public partial class Menu : Form
@@ -20,37 +8,37 @@ namespace PROJE
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Seçilecek olan çarpýþma denetimi için comboBox1 ögelerine ekleme
-            comboBox1.Items.Add("Nokta-Dikdörtgen");
-            comboBox1.Items.Add("Nokta-Çember");
-            comboBox1.Items.Add("Dikdörtgen-Dikdörtgen");
-            comboBox1.Items.Add("Dikdörtgen-Çember");
-            comboBox1.Items.Add("Çember-Çember");
-            comboBox1.Items.Add("Nokta-Küre");
-            comboBox1.Items.Add("Nokta-Dikdörtgen prizma");
+            // SeÃ§ilecek olan Ã§arpÃ½Ã¾ma denetimi iÃ§in comboBox1 Ã¶gelerine ekleme
+            comboBox1.Items.Add("Nokta-DikdÃ¶rtgen");
+            comboBox1.Items.Add("Nokta-Ã‡ember");
+            comboBox1.Items.Add("DikdÃ¶rtgen-DikdÃ¶rtgen");
+            comboBox1.Items.Add("DikdÃ¶rtgen-Ã‡ember");
+            comboBox1.Items.Add("Ã‡ember-Ã‡ember");
+            comboBox1.Items.Add("Nokta-KÃ¼re");
+            comboBox1.Items.Add("Nokta-DikdÃ¶rtgen prizma");
             comboBox1.Items.Add("Nokta-Silindir");
             comboBox1.Items.Add("Silindir-Silindir");
-            comboBox1.Items.Add("Küre-Küre");
-            comboBox1.Items.Add("Küre-Silindir");
-            comboBox1.Items.Add("Yüzey-Küre");
-            comboBox1.Items.Add("Yüzey-Dikdörtgen prizma");
-            comboBox1.Items.Add("Yüzey-Silindir");
-            comboBox1.Items.Add("Küre-Dikdörtgen prizma");
-            comboBox1.Items.Add("Dikdörtgen prizma-Dikdörtgen prizma");
+            comboBox1.Items.Add("KÃ¼re-KÃ¼re");
+            comboBox1.Items.Add("KÃ¼re-Silindir");
+            comboBox1.Items.Add("YÃ¼zey-KÃ¼re");
+            comboBox1.Items.Add("YÃ¼zey-DikdÃ¶rtgen prizma");
+            comboBox1.Items.Add("YÃ¼zey-Silindir");
+            comboBox1.Items.Add("KÃ¼re-DikdÃ¶rtgen prizma");
+            comboBox1.Items.Add("DikdÃ¶rtgen prizma-DikdÃ¶rtgen prizma");
 
-            //Çizimi yapýlacak olan nesne seçimi için comboBox2 ögelerine ekleme
+            //Ã‡izimi yapÃ½lacak olan nesne seÃ§imi iÃ§in comboBox2 Ã¶gelerine ekleme
             comboBox2.Items.Add("Nokta");
-            comboBox2.Items.Add("Çember");
-            comboBox2.Items.Add("Dörtgen");
-            comboBox2.Items.Add("Dikdörtgen");
+            comboBox2.Items.Add("Ã‡ember");
+            comboBox2.Items.Add("DÃ¶rtgen");
+            comboBox2.Items.Add("DikdÃ¶rtgen");
             comboBox2.Items.Add("Silindir");
-            comboBox2.Items.Add("Küre");
-            comboBox2.Items.Add("Yüzey");
-            comboBox2.Items.Add("Dikdörtgen prizma");
+            comboBox2.Items.Add("KÃ¼re");
+            comboBox2.Items.Add("YÃ¼zey");
+            comboBox2.Items.Add("DikdÃ¶rtgen prizma");
         }
         private void cizimbuton_Click(object sender, EventArgs e)
         {
-            // Seçilen nesne çizimi için buton yardýmýyla ilgili formu açma
+            // SeÃ§ilen nesne Ã§izimi iÃ§in buton yardÃ½mÃ½yla ilgili formu aÃ§ma
             if (comboBox2.SelectedIndex == 0)
             {
                 Form2 form2 = new Form2();
@@ -95,9 +83,9 @@ namespace PROJE
             }
         }   
 
-        private void carpýsmaButon_Click_1(object sender, EventArgs e)
+        private void carpÃ½smaButon_Click_1(object sender, EventArgs e)
         {
-            // Seçilen çarpýþma denetimi için buton yardýmýyla ilgili formu açma
+            // SeÃ§ilen Ã§arpÃ½Ã¾ma denetimi iÃ§in buton yardÃ½mÃ½yla ilgili formu aÃ§ma
             if (comboBox1.SelectedIndex == 0)
             {
                 Form13 form13= new Form13(); 
